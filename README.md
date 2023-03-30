@@ -1,6 +1,8 @@
 # spa
 The version of the SPA that is available on the JavaScript CDN https://cdn.jsdelivr.net/gh/nubeluk/spa/huxley.js
 
+When updating this Git repository be sure to issue a CDN purge request using https://www.jsdelivr.com/tools/purge
+
 Use the below code snippet on the customers existing website, eg. add to a page in the CMS:
 
 ```<!-- Huxley Widget code starts -->
