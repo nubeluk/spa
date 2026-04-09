@@ -5,8 +5,14 @@ When updating this Git repository be sure to issue a CDN purge request using htt
 
 Use the below code snippet on the customers existing website, eg. add to a page in the CMS:
 
-```<!-- Huxley Widget code starts -->
-<div id="huxley-app" data-organisation="organisation_id" data-fbid="facebook_id"></div>
+```html
+<!-- Huxley Widget code starts -->
+<div id="huxley-app"
+  data-organisation="organisation_id"
+  data-recaptcha-key="google_recaptcha_key"
+  data-navigation="1"
+  data-currency="coin/coins"></div>
 <link href="https://cdn.jsdelivr.net/gh/nubeluk/spa/mini-bootstrap.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/gh/nubeluk/spa/huxley.js" type="text/javascript"></script>
-<!-- Huxley Widget code ends -->```
+<!-- Huxley Widget code ends -->
+```
